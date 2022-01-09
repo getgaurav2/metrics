@@ -7,9 +7,9 @@
 Functional metrics
 ##################
 
-*************
-Audio Metrics
-*************
+*****
+Audio
+*****
 
 pesq [func]
 ~~~~~~~~~~~
@@ -24,31 +24,31 @@ pit [func]
     :noindex:
 
 
-sdr [func]
-~~~~~~~~~~
+signal_distortion_ratio [func]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. autofunction:: torchmetrics.functional.sdr
+.. autofunction:: torchmetrics.functional.signal_distortion_ratio
     :noindex:
 
 
-si_sdr [func]
-~~~~~~~~~~~~~
+scale_invariant_signal_distortion_ratio [func]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. autofunction:: torchmetrics.functional.si_sdr
+.. autofunction:: torchmetrics.functional.scale_invariant_signal_distortion_ratio
     :noindex:
 
 
-si_snr [func]
-~~~~~~~~~~~~~
+scale_invariant_signal_noise_ratio [func]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. autofunction:: torchmetrics.functional.si_snr
     :noindex:
 
 
-snr [func]
-~~~~~~~~~~
+signal_noise_ratio [func]
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. autofunction:: torchmetrics.functional.snr
+.. autofunction:: torchmetrics.functional.signal_noise_ratio
     :noindex:
 
 
@@ -59,9 +59,9 @@ stoi [func]
     :noindex:
 
 
-**********************
-Classification Metrics
-**********************
+**************
+Classification
+**************
 
 accuracy [func]
 ~~~~~~~~~~~~~~~
@@ -230,9 +230,9 @@ to_onehot [func]
 .. autofunction:: torchmetrics.utilities.data.to_onehot
     :noindex:
 
-*************
-Image Metrics
-*************
+*****
+Image
+*****
 
 image_gradients [func]
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -254,9 +254,9 @@ ssim [func]
 .. autofunction:: torchmetrics.functional.ssim
     :noindex:
 
-******************
-Regression Metrics
-******************
+**********
+Regression
+**********
 
 cosine_similarity [func]
 ~~~~~~~~~~~~~~~~~~~~~~~~
